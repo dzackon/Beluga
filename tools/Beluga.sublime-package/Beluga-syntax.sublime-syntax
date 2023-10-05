@@ -72,8 +72,6 @@ contexts:
     - match: \b(by|total|intros|unboxed|proof|split|solve)\b
       scope: keyword.harpoon.bel
     - include: module-signature
-    - match: (’|‘|“|”)
-      scope: invalid.illegal.unrecognized-character.bel
   comments:
     - include: block-comments
     - include: line-comments
